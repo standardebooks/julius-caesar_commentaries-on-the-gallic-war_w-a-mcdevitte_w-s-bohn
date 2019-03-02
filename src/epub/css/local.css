@@ -1,2 +1,32 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+.person-counts {
+    font-variant-numeric: tabular-nums;
+    margin: 1em auto;
+}
+
+.person-counts .person-count-label {
+    padding-right: 1em;
+}
+
+.person-counts .total td {
+    padding: 0.5em 0;
+}
+
+.person-counts tr:nth-last-child(2) td {
+    padding-bottom: 0.5em;
+}
+
+.person-counts .total .person-count-label {
+    text-align: center;
+}
+
+.person-counts .total .person-count {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.person-counts .person-count {
+    text-align: right
+};
