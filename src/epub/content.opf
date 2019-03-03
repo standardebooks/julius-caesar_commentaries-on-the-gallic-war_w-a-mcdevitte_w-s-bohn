@@ -58,11 +58,12 @@
 		<meta property="se:name.person.full-name" refines="#translator-1">William Alexander McDevitte</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/no2005109475</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator-1" scheme="marc:relators">ann</meta>
 		<dc:creator id="translator-2">W. S. Bohn</dc:creator>
 		<meta property="file-as" refines="#translator-2">Bohn, W. S.</meta>
-		<meta property="se:name.person.full-name" refines="#translator-2">W. S. Bohn</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/no2005109477</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Lionel Royer</dc:contributor>
 		<meta property="file-as" refines="#artist">Royer, Lionel</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Lionel Noël Royer</meta>
@@ -89,6 +90,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">ann</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
