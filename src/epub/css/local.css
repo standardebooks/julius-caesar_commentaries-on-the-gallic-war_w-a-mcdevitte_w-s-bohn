@@ -5,32 +5,32 @@ abbr.era{
 	font-variant: all-small-caps;
 }
 
-.person-counts{
+table{
 	font-variant-numeric: tabular-nums;
 	margin: 1em auto;
 }
 
-.person-counts .person-count-label{
+table .person-count-label{
 	padding-right: 1em;
 }
 
-.person-counts .total td{
+table tr:last-child td{
 	padding: 0.5em 0;
 }
 
-.person-counts tr:nth-last-child(2) td{
+table tr:nth-last-child(2) td{
 	padding-bottom: 0.5em;
 }
 
-.person-counts .total .person-count-label{
+table tr:last-child .person-count-label{
 	text-align: center;
 }
 
-.person-counts .total .person-count{
+table tr:last-child .person-count{
 	border-bottom: 1px solid;
 	border-top: 1px solid;
 }
 
-.person-counts .person-count{
+table .person-count{
 	text-align: right;
 }
