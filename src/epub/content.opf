@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/julius-caesar/commentaries-on-the-gallic-war</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/julius-caesar/commentaries-on-the-gallic-war/w-a-mcdevitte_w-s-bohn</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<meta property="se:revision-number">0</meta>
@@ -31,10 +31,9 @@
 		<dc:title id="title">Commentaries on the Gallic War</dc:title>
 		<meta property="file-as" refines="#title">Commentaries on the Gallic War</meta>
 		<dc:subject id="subject-1">Gaul -- History -- Gallic Wars, 58-51 B.C.</dc:subject>
-		<dc:subject id="subject-2">Rome -- History -- Civil War, 49-48 B.C.</dc:subject>
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/10657</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/10657</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Memoir</meta>
+		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
@@ -43,29 +42,47 @@
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/10657</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">The source edition made liberal use of square brackets to clarify subjects or historical context, or to emphasise translation details. In this production we've moved several of them to endnotes, and removed others which do not aid readability.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Commentaries_on_the_Gallic_War</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/julius-caesar_commentaries-on-the-gallic-war</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/julius-caesar_commentaries-on-the-gallic-war_w-a-mcdevitte_w-s-bohn</meta>
 		<dc:creator id="author">Julius Caesar</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Caesar, Julius</meta>
+		<meta property="se:name.person.full-name" refines="#author">Gaius Julius Caesar</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Julius_Caesar</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHORNACOAFLINK</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79021400</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<dc:creator id="translator-1">W. A. McDevitte</dc:creator>
+		<meta property="file-as" refines="#translator-1">McDevitte, W. A.</meta>
+		<meta property="se:name.person.full-name" refines="#translator-1">William Alexander McDevitte</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/no2005109475</meta>
+		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
+		<dc:creator id="translator-2">W. S. Bohn</dc:creator>
+		<meta property="file-as" refines="#translator-2">Bohn, W. S.</meta>
+		<meta property="se:name.person.full-name" refines="#translator-2">W. S. Bohn</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/no2005109477</meta>
+		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
+		<dc:contributor id="artist">Lionel Royer</dc:contributor>
+		<meta property="file-as" refines="#artist">Royer, Lionel</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Lionel Noël Royer</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Lionel_Royer</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">LINK</meta>
+		<dc:contributor id="transcriber-1">Stan Goodman</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Goodman, Stan</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="transcriber-2">Ted Garvin</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Garvin, Ted</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Carol David</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">David, Carol</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-4">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Mat Moore</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Moore, Mat</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -73,22 +90,38 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
-	<manifest>
-		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
-		<item href="css/core.css" id="core.css" media-type="text/css"/>
-		<item href="css/local.css" id="local.css" media-type="text/css"/>
-		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
-		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
-		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
-		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
-	</manifest>
-	<spine>
-		<itemref idref="titlepage.xhtml"/>
-		<itemref idref="imprint.xhtml"/>
-		<itemref idref="colophon.xhtml"/>
-		<itemref idref="uncopyright.xhtml"/>
-	</spine>
+<manifest>
+	<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+	<item href="css/core.css" id="core.css" media-type="text/css"/>
+	<item href="css/local.css" id="local.css" media-type="text/css"/>
+	<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+	<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
+	<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+	<item href="text/chapter-1.xhtml" id="chapter-1.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/chapter-2.xhtml" id="chapter-2.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/chapter-3.xhtml" id="chapter-3.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/chapter-4.xhtml" id="chapter-4.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/chapter-5.xhtml" id="chapter-5.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/chapter-6.xhtml" id="chapter-6.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/chapter-7.xhtml" id="chapter-7.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+	<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+	<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+	<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+	<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+</manifest>
+<spine>
+	<itemref idref="titlepage.xhtml"/>
+	<itemref idref="imprint.xhtml"/>
+	<itemref idref="chapter-1.xhtml"/>
+	<itemref idref="chapter-2.xhtml"/>
+	<itemref idref="chapter-3.xhtml"/>
+	<itemref idref="chapter-4.xhtml"/>
+	<itemref idref="chapter-5.xhtml"/>
+	<itemref idref="chapter-6.xhtml"/>
+	<itemref idref="chapter-7.xhtml"/>
+	<itemref idref="endnotes.xhtml"/>
+	<itemref idref="colophon.xhtml"/>
+	<itemref idref="uncopyright.xhtml"/>
+</spine>
 </package>
