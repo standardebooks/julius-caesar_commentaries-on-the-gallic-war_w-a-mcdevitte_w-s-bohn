@@ -34,11 +34,19 @@
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/10657</meta>
 		<meta property="se:subject">Memoir</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Julius Caesar’s account of the conflicts between Rome and Gaul in the later years of the Roman republic.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			LONGDESCRIPTION
-		]]></meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;&lt;i&gt;Commentaries on the Gallic Wars&lt;/i&gt; describes the conflicts between Rome and the region of Gaul in western Europe, as well as the Germanic peoples who lived to the east of the river Rhine, and Britain to the north, in the later years of the Roman republic.&lt;/p&gt;
+
+			&lt;p&gt;Despite being written in the 3rd person, the commentaries are the memoirs of Julius Caesar himself, and offer a unique insight into these events.&lt;/p&gt;
+
+			&lt;p&gt;Before the Gallic wars began, the romans had already conquered the region known as Provincia Nostra (literally: “our province”), which is now Languedoc and Provence in the south of France.&lt;/p&gt;
+
+			&lt;p&gt;Julius Caesar had been one of the two consuls elected in the year 59 &lt;abbr class="era"&gt;BC&lt;/abbr&gt;. The Consuls held the highest political office in the Roman republic, but their terms only lasted a year. When his consulship came to an end, Caesar retained power through the position of proconsul, governing Provincia Nostra and two other provinces. This provided Caesar with the necessary command to conduct the military campaigns in Gaul.&lt;/p&gt;
+
+			&lt;p&gt;Caesar’s victories in Gaul had huge repercussions on the future of Rome: the related work, &lt;i&gt;Commentaries on the Civil War&lt;/i&gt;, documents the ensuing conflict between Caesar and Pompey that ultimately led to the end of the Roman republic and the beginning of the Roman empire.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/10657</dc:source>
