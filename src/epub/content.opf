@@ -41,16 +41,16 @@
 
 			&lt;p&gt;Despite being written in the 3rd person, the commentaries are the memoirs of Julius Caesar himself, and offer a unique insight into these events.&lt;/p&gt;
 
-			&lt;p&gt;Before the Gallic war began, the romans had already conquered the region known as Provincia Nostra (literally: “our province”), which is now Languedoc and Provence in the south of France.&lt;/p&gt;
+			&lt;p&gt;Before the Gallic war began, the Romans had already conquered the region known as Provincia Nostra (literally: “our province”), which is now Languedoc and Provence in the south of France.&lt;/p&gt;
 
-			&lt;p&gt;Julius Caesar had been one of the two consuls elected in the year 59 &lt;abbr class="era"&gt;BC&lt;/abbr&gt;. The Consuls held the highest political office in the Roman republic, but their terms only lasted a year. When his consulship came to an end, Caesar retained power through the position of proconsul, governing Provincia Nostra and two other provinces. This provided Caesar with the necessary command to conduct the military campaigns in Gaul.&lt;/p&gt;
+			&lt;p&gt;Julius Caesar had been one of the two consuls elected in the year 59 &lt;abbr class="era"&gt;BC&lt;/abbr&gt;. The consuls held the highest political office in the Roman republic, but their terms only lasted a year. When his consulship came to an end, Caesar retained power through the position of proconsul, governing Provincia Nostra and two other provinces. This provided Caesar with the necessary command to conduct the military campaigns in Gaul.&lt;/p&gt;
 
 			&lt;p&gt;Caesar’s victories in Gaul had huge repercussions on the future of Rome: the related work, &lt;i&gt;Commentaries on the Civil War&lt;/i&gt;, documents the ensuing conflict between Caesar and Pompey that ultimately led to the end of the Roman republic and the beginning of the Roman empire.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/10657</dc:source>
-		<meta property="se:production-notes">The source edition made liberal use of square brackets to clarify subjects or historical context, or to emphasise translation details. In this production we've moved several of them to endnotes, and removed others which do not aid readability.</meta>
+		<meta property="se:production-notes">The source edition made liberal use of square brackets to clarify subjects or historical context, or to emphasise translation details. In this production we've moved several of them to endnotes, and removed others which are not necessary.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Commentaries_on_the_Gallic_War</meta>
