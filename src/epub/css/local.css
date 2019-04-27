@@ -10,27 +10,27 @@ table{
 	margin: 1em auto;
 }
 
-table .person-count-label{
+td:first-child{
 	padding-right: 1em;
 }
 
-table tr:last-child td{
-	padding: 0.5em 0;
+td:last-child{
+	text-align: right;
 }
 
-table tr:nth-last-child(2) td{
+tbody tr:last-child td{
 	padding-bottom: 0.5em;
 }
 
-table tr:last-child .person-count-label{
+tfoot td{
+	padding: 0.5em 0;
+}
+
+tfoot td:first-child{
 	text-align: center;
 }
 
-table tr:last-child .person-count{
+tfoot td:last-child{
 	border-bottom: 1px solid;
 	border-top: 1px solid;
-}
-
-table .person-count{
-	text-align: right;
 }
