@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/julius-caesar_w-a-mcdevitte_w-s-bohn/commentaries-on-the-gallic-war</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/julius-caesar/commentaries-on-the-gallic-war/w-a-mcdevitte_w-s-bohn</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<meta property="se:revision-number">0</meta>
@@ -54,20 +54,20 @@
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Commentaries_on_the_Gallic_War</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/julius-caesar_w-a-mcdevitte_w-s-bohn_commentaries-on-the-gallic-war</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/julius-caesar_commentaries-on-the-gallic-war_w-a-mcdevitte_w-s-bohn</meta>
 		<dc:creator id="author">Julius Caesar</dc:creator>
 		<meta property="file-as" refines="#author">Caesar, Julius</meta>
 		<meta property="se:name.person.full-name" refines="#author">Gaius Julius Caesar</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Julius_Caesar</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79021400</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:creator id="translator-1">W. A. McDevitte</dc:creator>
+		<dc:contributor id="translator-1">W. A. McDevitte</dc:contributor>
 		<meta property="file-as" refines="#translator-1">McDevitte, W. A.</meta>
 		<meta property="se:name.person.full-name" refines="#translator-1">William Alexander McDevitte</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/no2005109475</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">ann</meta>
-		<dc:creator id="translator-2">W. S. Bohn</dc:creator>
+		<dc:contributor id="translator-2">W. S. Bohn</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Bohn, W. S.</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/no2005109477</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
