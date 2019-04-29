@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/julius-caesar/commentaries-on-the-gallic-war/w-a-mcdevitte_w-s-bohn</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2019-04-29T22:52:51Z</dc:date>
+		<meta property="dcterms:modified">2019-04-29T22:52:51Z</meta>
 		<meta property="se:revision-number">0</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -38,21 +38,17 @@
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Commentaries on the Gallic War&lt;/i&gt; describes the conflicts between Rome and the region of Gaul in western Europe, as well as the Germanic peoples who lived to the east of the river Rhine, and Britain to the north, in the later years of the Roman republic.&lt;/p&gt;
-
 			&lt;p&gt;Despite being written in the 3rd person, the commentaries are the memoirs of Julius Caesar himself, and offer a unique insight into these events.&lt;/p&gt;
-
 			&lt;p&gt;Before the Gallic war began, the Romans had already conquered the region known as Provincia Nostra (literally: “our province”), which is now Languedoc and Provence in the south of France.&lt;/p&gt;
-
-			&lt;p&gt;Julius Caesar had been one of the two consuls elected in the year 59 &lt;abbr class="era"&gt;BC&lt;/abbr&gt;. The consuls held the highest political office in the Roman republic, but their terms only lasted a year. When his consulship came to an end, Caesar retained power through the position of proconsul, governing Provincia Nostra and two other provinces. This provided Caesar with the necessary command to conduct the military campaigns in Gaul.&lt;/p&gt;
-
+			&lt;p&gt;Julius Caesar had been one of the two consuls elected in the year 59 BC. The consuls held the highest political office in the Roman republic, but their terms only lasted a year. When his consulship came to an end, Caesar retained power through the position of proconsul, governing Provincia Nostra and two other provinces. This provided Caesar with the necessary command to conduct the military campaigns in Gaul.&lt;/p&gt;
 			&lt;p&gt;Caesar’s victories in Gaul had huge repercussions on the future of Rome: the related work, &lt;i&gt;Commentaries on the Civil War&lt;/i&gt;, documents the ensuing conflict between Caesar and Pompey that ultimately led to the end of the Roman republic and the beginning of the Roman empire.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/10657</dc:source>
 		<meta property="se:production-notes">The source edition made liberal use of square brackets to clarify subjects or historical context, or to emphasise translation details. In this production we've moved several of them to endnotes, and removed others which are not necessary.</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<meta property="se:word-count">75080</meta>
+		<meta property="se:reading-ease.flesch">36.09</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Commentaries_on_the_Gallic_War</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/julius-caesar_commentaries-on-the-gallic-war_w-a-mcdevitte_w-s-bohn</meta>
 		<dc:creator id="author">Julius Caesar</dc:creator>
@@ -98,7 +94,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">ann</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
