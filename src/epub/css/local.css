@@ -31,6 +31,5 @@ tfoot td:first-child{
 }
 
 tfoot td:last-child{
-	border-bottom: 1px solid;
 	border-top: 1px solid;
 }
