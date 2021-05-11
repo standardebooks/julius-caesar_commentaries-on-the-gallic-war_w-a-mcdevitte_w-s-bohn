@@ -50,7 +50,7 @@
 		<meta property="se:production-notes">The source edition made liberal use of square brackets to clarify subjects or historical context, or to emphasise translation details. In this production we've moved several of them to endnotes, and removed others which are not necessary.</meta>
 		<meta property="se:word-count">75080</meta>
 		<meta property="se:reading-ease.flesch">36.09</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Commentaries_on_the_Gallic_War</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Commentarii_de_Bello_Gallico</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/julius-caesar_commentaries-on-the-gallic-war_w-a-mcdevitte_w-s-bohn</meta>
 		<dc:creator id="author">Julius Caesar</dc:creator>
 		<meta property="file-as" refines="#author">Caesar, Julius</meta>
