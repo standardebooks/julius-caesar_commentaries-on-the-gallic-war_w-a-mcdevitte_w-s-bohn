@@ -81,8 +81,8 @@
 		<dc:contributor id="transcriber-3">Carol David</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">David, Carol</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-4">The Online Distributed Proofreading Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-4">Online Distributed Proofreading Team, The</meta>
+		<dc:contributor id="transcriber-4">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Distributed Proofreaders</meta>
 		<meta property="se:url.homepage" refines="#transcriber-4">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Mat Moore</dc:contributor>
