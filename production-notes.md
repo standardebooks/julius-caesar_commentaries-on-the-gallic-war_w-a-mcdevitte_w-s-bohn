@@ -1,0 +1,1 @@
+The source edition made liberal use of square brackets to clarify subjects or historical context, or to emphasise translation details. In this production we've moved several of them to endnotes, and removed others which are not necessary.

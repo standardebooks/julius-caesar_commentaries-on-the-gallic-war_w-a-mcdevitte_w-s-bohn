@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/julius-caesar/commentaries-on-the-gallic-war/w-a-mcdevitte_w-s-bohn</dc:identifier>
 		<dc:date>2019-04-29T22:52:51Z</dc:date>
 		<meta property="dcterms:modified">2019-04-29T22:52:51Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -32,8 +33,8 @@
 		<dc:subject id="subject-1">Gaul -- History -- Gallic Wars, 58-51 B.C.</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85053541</meta>
-		<meta property="se:subject">Memoir</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Memoir</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<dc:description id="description">Julius Caesar’s account of the conflicts between Rome and Gaul in the later years of the Roman republic.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Commentaries on the Gallic War&lt;/i&gt; describes the conflicts between Rome and the region of Gaul in western Europe, as well as the Germanic peoples who lived to the east of the river Rhine, and Britain to the north, in the later years of the Roman republic.&lt;/p&gt;
@@ -45,32 +46,33 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/10657</dc:source>
 		<dc:source>https://archive.org/details/caesarscomgallic00caesiala</dc:source>
-		<meta property="se:production-notes">The source edition made liberal use of square brackets to clarify subjects or historical context, or to emphasise translation details. In this production we've moved several of them to endnotes, and removed others which are not necessary.</meta>
-		<meta property="se:word-count">74999</meta>
-		<meta property="se:reading-ease.flesch">36.09</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Commentarii_de_Bello_Gallico</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/julius-caesar_commentaries-on-the-gallic-war_w-a-mcdevitte_w-s-bohn</meta>
+		<meta property="schema:wordCount">74999</meta>
+		<meta property="schema:educationalLevel">36.09</meta>
+		<link href="https://en.wikipedia.org/wiki/Commentarii_de_Bello_Gallico" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/julius-caesar_commentaries-on-the-gallic-war_w-a-mcdevitte_w-s-bohn" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Julius Caesar</dc:creator>
 		<meta property="file-as" refines="#author">Caesar, Julius</meta>
-		<meta property="se:name.person.full-name" refines="#author">Gaius Julius Caesar</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Julius_Caesar</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79021400</meta>
+		<meta property="schema:alternateName" refines="#author">Gaius Julius Caesar</meta>
+		<link href="https://en.wikipedia.org/wiki/Julius_Caesar" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79021400.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">W. A. McDevitte</dc:contributor>
 		<meta property="file-as" refines="#translator-1">McDevitte, W. A.</meta>
-		<meta property="se:name.person.full-name" refines="#translator-1">William Alexander McDevitte</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/no2005109475</meta>
+		<meta property="schema:alternateName" refines="#translator-1">William Alexander McDevitte</meta>
+		<link href="https://id.loc.gov/authorities/names/no2005109475.html" refines="#translator-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">W. S. Bohn</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Bohn, W. S.</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/no2005109477</meta>
+		<link href="https://id.loc.gov/authorities/names/no2005109477.html" refines="#translator-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Lionel Royer</dc:contributor>
 		<meta property="file-as" refines="#artist">Royer, Lionel</meta>
-		<meta property="se:name.person.full-name" refines="#artist">Lionel Noël Royer</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Lionel_Royer</meta>
+		<meta property="schema:alternateName" refines="#artist">Lionel Noël Royer</meta>
+		<link href="https://en.wikipedia.org/wiki/Lionel_Royer" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Stan Goodman</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Goodman, Stan</meta>
@@ -83,7 +85,7 @@
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-4">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-4">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-4" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Mat Moore</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Moore, Mat</meta>
@@ -95,7 +97,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com/</meta>
+		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
