@@ -49,7 +49,7 @@
 		<meta property="schema:wordCount">74999</meta>
 		<meta property="schema:educationalLevel">36.09</meta>
 		<link href="https://en.wikipedia.org/wiki/Commentarii_de_Bello_Gallico" rel="schema:sameAs"/>
-		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/julius-caesar_commentaries-on-the-gallic-war_w-a-mcdevitte_w-s-bohn" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Julius Caesar</dc:creator>
