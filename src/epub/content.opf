@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/julius-caesar/commentaries-on-the-gallic-war/w-a-mcdevitte_w-s-bohn</dc:identifier>
 		<dc:date>2019-04-29T22:52:51Z</dc:date>
@@ -35,14 +35,14 @@
 		<meta property="term" refines="#subject-1">sh85053541</meta>
 		<meta property="schema:genre">Memoir</meta>
 		<meta property="schema:genre">Nonfiction</meta>
-		<dc:description id="description">Julius Caesar’s account of the conflicts between Rome and Gaul in the later years of the Roman republic.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Julius Caesar’s account of the conflicts between Rome and Gaul in the later years of the Roman republic.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Commentaries on the Gallic War&lt;/i&gt; describes the conflicts between Rome and the region of Gaul in western Europe, as well as the Germanic peoples who lived to the east of the river Rhine, and Britain to the north, in the later years of the Roman republic.&lt;/p&gt;
 			&lt;p&gt;Despite being written in the 3rd person, the commentaries are the memoirs of &lt;a href="https://standardebooks.org/ebooks/julius-caesar"&gt;Julius Caesar&lt;/a&gt; himself, and offer a unique insight into these events.&lt;/p&gt;
 			&lt;p&gt;Before the Gallic war began, the Romans had already conquered the region known as Provincia Nostra (literally: “our province”), which is now Languedoc and Provence in the south of France.&lt;/p&gt;
 			&lt;p&gt;Julius Caesar had been one of the two consuls elected in the year 59 &lt;abbr&gt;BC&lt;/abbr&gt;. The consuls held the highest political office in the Roman republic, but their terms only lasted a year. When his consulship came to an end, Caesar retained power through the position of proconsul, governing Provincia Nostra and two other provinces. This provided Caesar with the necessary command to conduct the military campaigns in Gaul.&lt;/p&gt;
 			&lt;p&gt;Caesar’s victories in Gaul had huge repercussions on the future of Rome: the related work, &lt;i&gt;Commentaries on the Civil War&lt;/i&gt;, documents the ensuing conflict between Caesar and Pompey that ultimately led to the end of the Roman republic and the beginning of the Roman empire.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/10657</dc:source>
 		<dc:source>https://archive.org/details/caesarscomgallic00caesiala</dc:source>
