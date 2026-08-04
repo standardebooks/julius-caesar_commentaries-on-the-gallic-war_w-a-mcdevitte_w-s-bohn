@@ -35,7 +35,7 @@
 		<meta property="term" refines="#subject-1">sh85053541</meta>
 		<meta property="schema:genre">Memoir</meta>
 		<meta property="schema:genre">Nonfiction</meta>
-		<dc:abstract>Julius Caesar’s account of the conflicts between Rome and Gaul in the later years of the Roman republic.</dc:abstract>
+		<meta property="schema:abstract">Julius Caesar’s account of the conflicts between Rome and Gaul in the later years of the Roman republic.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Commentaries on the Gallic War&lt;/i&gt; describes the conflicts between Rome and the region of Gaul in western Europe, as well as the Germanic peoples who lived to the east of the river Rhine, and Britain to the north, in the later years of the Roman republic.&lt;/p&gt;
 			&lt;p&gt;Despite being written in the 3rd person, the commentaries are the memoirs of &lt;a href="https://standardebooks.org/ebooks/julius-caesar"&gt;Julius Caesar&lt;/a&gt; himself, and offer a unique insight into these events.&lt;/p&gt;
